@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5532D4E41CDDF91100475B70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5532D4E31CDDF91100475B70 /* AppDelegate.m */; };
+		5532D4E71CDDF91100475B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5532D4E61CDDF91100475B70 /* main.m */; };
+		5532D4E91CDDF91100475B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5532D4E81CDDF91100475B70 /* Assets.xcassets */; };
+		5532D4EC1CDDF91100475B70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5532D4EA1CDDF91100475B70 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5532D4DF1CDDF91100475B70 /* FakeNestedWindows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeNestedWindows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5532D4E21CDDF91100475B70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5532D4E31CDDF91100475B70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5532D4E61CDDF91100475B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5532D4E81CDDF91100475B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5532D4EB1CDDF91100475B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5532D4ED1CDDF91100475B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5532D4DC1CDDF91100475B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5532D4D61CDDF91100475B70 = {
+			isa = PBXGroup;
+			children = (
+				5532D4E11CDDF91100475B70 /* FakeNestedWindows */,
+				5532D4E01CDDF91100475B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5532D4E01CDDF91100475B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5532D4DF1CDDF91100475B70 /* FakeNestedWindows.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5532D4E11CDDF91100475B70 /* FakeNestedWindows */ = {
+			isa = PBXGroup;
+			children = (
+				5532D4E21CDDF91100475B70 /* AppDelegate.h */,
+				5532D4E31CDDF91100475B70 /* AppDelegate.m */,
+				5532D4E81CDDF91100475B70 /* Assets.xcassets */,
+				5532D4EA1CDDF91100475B70 /* MainMenu.xib */,
+				5532D4ED1CDDF91100475B70 /* Info.plist */,
+				5532D4E51CDDF91100475B70 /* Supporting Files */,
+			);
+			path = FakeNestedWindows;
+			sourceTree = "<group>";
+		};
+		5532D4E51CDDF91100475B70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5532D4E61CDDF91100475B70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5532D4DE1CDDF91100475B70 /* FakeNestedWindows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5532D4F01CDDF91100475B70 /* Build configuration list for PBXNativeTarget "FakeNestedWindows" */;
+			buildPhases = (
+				5532D4DB1CDDF91100475B70 /* Sources */,
+				5532D4DC1CDDF91100475B70 /* Frameworks */,
+				5532D4DD1CDDF91100475B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeNestedWindows;
+			productName = FakeNestedWindows;
+			productReference = 5532D4DF1CDDF91100475B70 /* FakeNestedWindows.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5532D4D71CDDF91100475B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Uli Kusterer";
+				TargetAttributes = {
+					5532D4DE1CDDF91100475B70 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5532D4DA1CDDF91100475B70 /* Build configuration list for PBXProject "FakeNestedWindows" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5532D4D61CDDF91100475B70;
+			productRefGroup = 5532D4E01CDDF91100475B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5532D4DE1CDDF91100475B70 /* FakeNestedWindows */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5532D4DD1CDDF91100475B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5532D4E91CDDF91100475B70 /* Assets.xcassets in Resources */,
+				5532D4EC1CDDF91100475B70 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5532D4DB1CDDF91100475B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5532D4E71CDDF91100475B70 /* main.m in Sources */,
+				5532D4E41CDDF91100475B70 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5532D4EA1CDDF91100475B70 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5532D4EB1CDDF91100475B70 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5532D4EE1CDDF91100475B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5532D4EF1CDDF91100475B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5532D4F11CDDF91100475B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FakeNestedWindows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.FakeNestedWindows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5532D4F21CDDF91100475B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FakeNestedWindows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.FakeNestedWindows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5532D4DA1CDDF91100475B70 /* Build configuration list for PBXProject "FakeNestedWindows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5532D4EE1CDDF91100475B70 /* Debug */,
+				5532D4EF1CDDF91100475B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5532D4F01CDDF91100475B70 /* Build configuration list for PBXNativeTarget "FakeNestedWindows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5532D4F11CDDF91100475B70 /* Debug */,
+				5532D4F21CDDF91100475B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5532D4D71CDDF91100475B70 /* Project object */;
+}
